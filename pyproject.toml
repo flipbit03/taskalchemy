@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "taskalchemy"
+version = "0.0.1"
+description = "PostgreSQL-backed Background Task System"
+authors = ["Cadu <cadu.coelho@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+psycopg2-binary = "^2.9.9"
+
+
+[tool.poetry.group.dev.dependencies]
+twine = "^5.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
